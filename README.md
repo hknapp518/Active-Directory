@@ -37,6 +37,8 @@ We will use CIDR notation (/24) to allocate 254 usable IP addresses for the inte
 ![Active Directory User New users in AD](https://github.com/user-attachments/assets/6e249cb2-9618-48c6-bb8a-8fa8aedb151b)
 
 ## Connect the Windows 10 Client to the internal network 
--Configured the Windows 10 client to obtain its IP address via DHCP from the domain controller, simulating a corporate network environment. 
+- Configured the Windows 10 client to obtain its IP address via DHCP from the domain controller, simulating a corporate network environment. 
 ![Active Directory User Windows 10 IPconfig](https://github.com/user-attachments/assets/697ba645-af93-4c1c-9a1f-fea8eb04ba15)
 
+- Changed the computer name to "CLIENT1" and joined it to the Active Directory domain mydomain.com.
+![Active Directory User Changing computer name and adding to mydomain com](https://github.com/user-attachments/assets/1b7aedb9-50e9-421f-8b9a-7667cfe6062f)
