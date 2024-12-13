@@ -31,9 +31,12 @@ We will use CIDR notation (/24) to allocate 254 usable IP addresses for the inte
 - I have created an OU for Admins and added myself as an Administrator to manage the environment. This allows me to set policies, change passwords, and add or delete users and Organizational Units (OUs).
 ![Active Directory User Adding an OU with ADMINS and adding myself as a user](https://github.com/user-attachments/assets/185ca10e-d13b-4d78-8438-3e96d4e07c03)
 
--I used a random name generator to create 1000 unique names and saved them to a text file. Then, I ran a PowerShell script to add these users to my Active Directory environment, simulating a large enterprise setup
+- I used a random name generator to create 1000 unique names and saved them to a text file. Then, I ran a PowerShell script to add these users to my Active Directory environment, simulating a large enterprise setup
 ![Active Directory User Adding random names to AD](https://github.com/user-attachments/assets/6e24837e-098f-4da9-91f5-90ebb6a67730)
 ![Active Directory User PowerShell script for adding users](https://github.com/user-attachments/assets/813e18b6-7eb3-4490-889e-054c1102aead)
 ![Active Directory User New users in AD](https://github.com/user-attachments/assets/6e249cb2-9618-48c6-bb8a-8fa8aedb151b)
 
+## Connect the Windows 10 Client to the internal network 
+-Configured the Windows 10 client to obtain its IP address via DHCP from the domain controller, simulating a corporate network environment. 
+![Active Directory User Windows 10 IPconfig](https://github.com/user-attachments/assets/697ba645-af93-4c1c-9a1f-fea8eb04ba15)
 
