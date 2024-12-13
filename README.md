@@ -45,3 +45,7 @@ We will use CIDR notation (/24) to allocate 254 usable IP addresses for the inte
 
 - On the Domain Controller, we can view the IP addresses and lease expiration times for all devices on the network via the DHCP management console. 
 ![Active Directory User DHCP Client address leases](https://github.com/user-attachments/assets/a6f08e2a-6561-4917-8490-957eb2d5963a)
+
+## Conclusion
+
+- We have set up a domain controller that allows any user to connect to the network from any computer, provided they have the proper credentials. 
