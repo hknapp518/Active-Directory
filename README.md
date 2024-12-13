@@ -42,3 +42,6 @@ We will use CIDR notation (/24) to allocate 254 usable IP addresses for the inte
 
 - Changed the computer name to "CLIENT1" and joined it to the Active Directory domain mydomain.com.
 ![Active Directory User Changing computer name and adding to mydomain com](https://github.com/user-attachments/assets/1b7aedb9-50e9-421f-8b9a-7667cfe6062f)
+
+- On the Domain Controller, we can view the IP addresses and lease expiration times for all devices on the network via the DHCP management console. 
+![Active Directory User DHCP Client address leases](https://github.com/user-attachments/assets/a6f08e2a-6561-4917-8490-957eb2d5963a)
